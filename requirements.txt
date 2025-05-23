@@ -1,0 +1,31 @@
+# Core dependencies
+torch>=1.13.0
+transformers>=4.30.0
+datasets>=2.12.0
+accelerate>=0.20.0
+numpy>=1.21.0
+pandas>=1.3.0
+tqdm>=4.64.0
+
+# Evaluation framework
+lighteval
+
+# Token compression
+llmlingua
+
+# Training utilities
+peft>=0.4.0
+bitsandbytes>=0.39.0
+
+# Data processing
+jsonlines>=3.1.0
+scikit-learn>=1.0.0
+
+# Logging and monitoring
+wandb>=0.15.0
+tensorboard>=2.13.0
+
+# Development tools
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0 
