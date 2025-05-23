@@ -1,9 +1,9 @@
-# Not All Tokens Are What You Need in Thinking
+# Not All Tokens Are What You Need In Thinking
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 
-Official implementation of the paper "Not All Tokens Are What You Need in Thinking"
+Official implementation of the paper "Not All Tokens Are What You Need In Thinking"
 
 ![image](process.png)
 
