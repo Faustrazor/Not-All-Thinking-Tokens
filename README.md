@@ -159,11 +159,14 @@ Our method demonstrates significant improvements in:
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@article{not_all_thinking_tokens,
-  title={Not All Tokens Are What You Need in Thinking},
-  author={Your Name and Co-authors},
-  journal={Conference/Journal Name},
-  year={2024}
+@misc{yuan2025tokensneedthinking,
+      title={Not All Tokens Are What You Need In Thinking}, 
+      author={Hang Yuan and Bin Yu and Haotian Li and Shijun Yang and Christina Dan Wang and Zhou Yu and Xueyin Xu and Weizhen Qi and Kai Chen},
+      year={2025},
+      eprint={2505.17827},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.17827}, 
 }
 ```
 
