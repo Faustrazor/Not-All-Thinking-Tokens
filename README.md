@@ -80,11 +80,7 @@ Not-All-Thinking-Tokens/
 Use the reference model to perform conditional compression on your dataset:
 
 ```bash
-python CTS_data_get.py \
-    --input_data path/to/your/dataset \
-    --output_data path/to/compressed/dataset \
-    --reference_model model_name \
-    --compression_ratio 0.7
+python CTS_data_get.py
 ```
 
 **Note**: This step requires `llmlingua` to be installed.
@@ -95,13 +91,7 @@ Navigate to the training directory and run the training scripts:
 
 ```bash
 cd CTS/train_src
-python train.py \
-    --model_name_or_path base_model_path \
-    --dataset compressed_dataset_path \
-    --output_dir ./outputs \
-    --num_train_epochs 3 \
-    --per_device_train_batch_size 4 \
-    --learning_rate 2e-5
+bash train.sh
 ```
 
 The training framework leverages [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for efficient fine-tuning across various model architectures.
@@ -112,22 +102,7 @@ Run the evaluation scripts using the LightEval framework:
 
 ```bash
 cd CTS/test_src
-python test.py \
-    --model_path path/to/trained/model \
-    --eval_dataset eval_dataset_name \
-    --output_dir ./eval_results
-```
-
-### Ablation Studies
-
-To reproduce the ablation experiments:
-
-```bash
-cd ablation_data_get
-python ablation_experiment.py \
-    --experiment_type token_selection \
-    --model_path base_model_path \
-    --dataset dataset_path
+bash evaluation.sh
 ```
 
 ## 📊 Results
