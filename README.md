@@ -1,3 +1,7 @@
+## Project Demonstration
+
+Video：[not all tokens.mp4](not all tokens.mp4)
+
 # Not All Tokens Are What You Need In Thinking
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
